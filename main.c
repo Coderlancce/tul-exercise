@@ -15,9 +15,9 @@ int main(void) {
     int result = binary_tree_is_bst(root);
 
     if (result)
-        printf("El árbol binario es un BST.\n");
+        printf("Si\n");
     else
-        printf("El árbol binario no es un BST.\n");
+        printf("No\n");
 
     /* Liberar la memoria del árbol */
     binary_tree_delete(root);
