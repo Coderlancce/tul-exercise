@@ -3,6 +3,15 @@
 
 Los 2 ejercicios los diseñe, y me parecio mas complejo resolver el binary tree, ademas que me trae recuerdos de los retos  que hice durante mi periodo de aprendizaje en Holberton School
 
+## Indice de archivos
+
+- binary_tree_delete.c : Esta funcion se encarga de liberar la memoria ocupada por el arbol binario, puede simplemente no usarla desagregando el archivo de la compilacion y desmencionarlo en el archivo main
+- binary_tree_is_bst.c : Esta funcion se encarga de pasar a revision el arbol binario siguiendo SOLID
+- binary_tree_node.c : Esta funcion se encarga de crear el arbol binario y agregar nodos
+- binary_trees.h : Aqui encontramos un archivo de cabecera donde se definen las funciones, prototipos, variables externas
+- complete-gdb-proyect.c : Este archivo contiene el codigo completo para que sea ejecutado en Online GDB
+- is_binary_search_tree.c : Esta funcion se encargara de revisar recursivamente todo el arbol para definir si es o no un arbol binario de busqueda o un BST
+
 ## ¿Como se ejecuta?
 
 Le presentare 2 opciones para que pueda ejecutarlo, una donde tenga que descargar el codigo y una donde podra simplemente copiarlo y pegarlo en un emulador
