@@ -9,13 +9,13 @@
  *
  * Return: 1 if it's a valid BST, 0 otherwise.
  */
-int is_binary_search_tree(const binary_tree_t *node, int min, int max)
+bool is_binary_search_tree(const binary_tree_t *node, int min, int max)
 {
     if (node == NULL)
-        return 1; // An empty tree is a valid BST
+        return true; // An empty tree is a valid BST
 
     if (node->n < min || node->n > max)
-        return 0; // Doesn't satisfy BST properties
+        return false; // Doesn't satisfy BST properties
 
     // Recursively check the left and right subtrees
     return is_binary_search_tree(node->left, min, node->n - 1) &&

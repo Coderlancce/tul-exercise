@@ -5,6 +5,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <limits.h>
+#include <stdbool.h>
 
 /**
 * struct binary_tree_s - Binary tree node
@@ -26,7 +27,7 @@ struct binary_tree_s
 typedef struct binary_tree_s binary_tree_t;
 
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
-int is_binary_search_tree(const binary_tree_t *node, int min, int max);
+bool is_binary_search_tree(const binary_tree_t *node, int min, int max);
 int binary_tree_is_bst(const binary_tree_t *tree);
 void binary_tree_delete(binary_tree_t *tree);
 
