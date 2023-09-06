@@ -7,7 +7,7 @@
  * @min: Minimum allowed value for the current node.
  * @max: Maximum allowed value for the current node.
  *
- * Return: 1 if it's a valid BST, 0 otherwise.
+ * Return: true if it's a valid BST, false otherwise.
  */
 bool is_binary_search_tree(const binary_tree_t *node, int min, int max)
 {
