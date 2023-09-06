@@ -1,4 +1,4 @@
-#Binary Search Tree
+# Binary Search Tree
 ## ¿Por que, lo selecciono?
 
 Los 2 ejercicios los diseñe, y me parecio mas complejo resolver el binary tree, ademas que me trae recuerdos de los retos  que hice durante mi periodo de aprendizaje en Holberton School
@@ -9,7 +9,9 @@ Le presentare 2 opciones para que pueda ejecutarlo, una donde tenga que descarga
 
 ## Ejecucion con OnlineGDB
 
-Podra ver un archivo completo llamado 'complete-gdb-proyect' que podra copiar y pegar en el emulador: https://www.onlinegdb.com/
+Podra ver un archivo completo llamado 'complete-gdb-proyect' que podra copiar y pegar en el emulador: https://www.onlinegdb.com/ simplemente peguelo y modifique la funcion main para testear
+
+## Ejecucion en Linux Terminal
 
 ### Paso 1 - Instale los archivos localmente
 
@@ -17,7 +19,6 @@ Puede instalar los archivos localmente accediendo a su consola linux y digitando
 
 ```
 git clone https://github.com/Coderlancce/tul-exercise
-
 ```
 
 ### Paso 2 - Instale el compilador de C llamado GCC
